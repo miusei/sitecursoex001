@@ -7,8 +7,9 @@
 body{
     background-image: linear-gradient(to bottom , #727D87 , #B6C8D9  );
     overflow-x: hidden;
+
 }
-/* Cabeçalho */
+/* Banner */
 
 header{
     text-align: center;
@@ -16,27 +17,37 @@ header{
 
 header > img{
     top: 0px;
-    width: 80%;
+    width: 88%;
     border-radius: 3px;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.363);
+}
+
+/* Cabeçalho */
+
+nav{
+    display: flex;
+    justify-content: center;
+    
 }
 
 nav.menu-top{
     background-color: #54799B;
-    width: 26.9%;
+    max-width: 40%;
+    min-width: 350px;
     margin: 5px auto;
     border-radius: 3px;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.363);
-    
 }
 
 nav.menu-top > a {
-    
+    color: black;    
+    width: 100%;
+    padding: 1px 1em 1px 1em;    
     font-size: 1.5em;
     font-style: bold;
-    padding: 1px 1em 1px 1em;
-    color: black;
     text-decoration: none; 
+    display: inline-block;
+    text-align: center;
     transition: background-color 0.5s , color 0.5s , box-shadow 0.4s; 
 }
 
@@ -54,11 +65,12 @@ nav.menu-top > a:hover{
 main{
     background-color: #54799B;
     margin: auto;
-    width: 80%;
+    width: 88%;
     text-align: center;
     padding: 0.2em;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.363);
+    
 }
 
 section{
@@ -78,7 +90,7 @@ aside{
 
 img.conteudo{
     border-radius: 3px;
-    width: 90%;
+    width: 80%;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.363);
 }
 
@@ -92,29 +104,34 @@ h1{
 
 footer{
     background-color: #4F5659;
+    color: white ;    
+    width: 88%; 
+    min-width: 380px;
     border-radius: 3px;
-    padding: 4px 0px;
-    width: 80%;  
-    margin: 5px auto;
+    padding: 3px 0px;     
+    margin: 3px auto;
     font-style: italic;
     font-size: 0.8em;
-    color: white ;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
 }
 
 footer > section{
-    border-top: 0;
-    background-color: #4F5659;
+    background-color: #4F5659;    
     width: 100%;
     height: 100%;
+    border-top: 0;
+    border-radius: 0;        
+    padding: 0px 5px;
     box-shadow: 0px 0px 0px 0px;
     border-right: 1px solid black;
-    border-radius: 0;
+    text-align: center;   
 }
 
 footer > section > ul{
     list-style: none;
+    padding: 0;
+
 }
 
 footer > section > ul > li > a{
