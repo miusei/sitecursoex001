@@ -6,7 +6,7 @@
 
 body{
     background-image: linear-gradient(to bottom , #727D87 , #B6C8D9  );
-    overflow-x: auto;
+    overflow-x: hidden;
 
 }
 /* Banner */
