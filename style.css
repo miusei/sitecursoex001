@@ -7,8 +7,8 @@
 body{
     background-image: linear-gradient(to bottom , #727D87 , #B6C8D9  );
     overflow-x: hidden;
-
 }
+
 /* Banner */
 
 header{
@@ -27,7 +27,6 @@ header > picture > img{
 nav{
     display: flex;
     justify-content: center;
-    
 }
 
 nav.menu-top{
@@ -48,7 +47,6 @@ nav.menu-top > a {
     text-decoration: none; 
     display: inline-block;
     text-align: center;
-    transition: background-color 0.5s , color 0.5s , box-shadow 0.4s; 
 }
 
 nav.menu-top > a:hover{
@@ -70,7 +68,6 @@ main{
     padding: 0.2em;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.363);
-    
 }
 
 section{
@@ -153,6 +150,15 @@ footer > section > h2{
     text-indent: 1em;
 }
 
+p.textorodape{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Portabilidade do rodapé para celulares*/
+
 @media screen and (max-width: 400px) {
     footer {
         flex-direction: column;
@@ -168,10 +174,3 @@ footer > section > h2{
         margin: 2px;
     }
   }
-
-p.textorodape{
-    text-align: center;
-    font-size: 1em;
-    font-style: italic;
-    font-weight: bold;
-}
