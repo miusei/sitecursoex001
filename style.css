@@ -129,17 +129,6 @@ footer > section{
     text-align: center;   
 }
 
-@media screen and (max-width: 400px) {
-    footer {
-        flex-direction: column;
-    }
-
-    footer > section { 
-        width: 100%;
-        padding: 0;
-    }
-  }
-
 footer > section > ul{
     list-style: none;
     padding: 0;
@@ -163,6 +152,22 @@ footer > section > ul > li > a > img{
 footer > section > h2{
     text-indent: 1em;
 }
+
+@media screen and (max-width: 400px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer > section { 
+        width: 100%;
+        padding: 0;
+    }
+
+    footer > section > ul > li > a{
+        padding: 4px 0px;
+        margin: 2px;
+    }
+  }
 
 p.textorodape{
     text-align: center;
